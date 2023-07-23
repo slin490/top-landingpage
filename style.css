@@ -13,32 +13,72 @@
 .header{
 	height: 25%;
 	width: 100%;
+	background-color: #1f2937;
+
 	border: black 1px solid;
 }
 
 .top-header{
 	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+	margin-left: 15%;
+	color: white;
+	font-size: 25px;
+	font-family: Helvetica, sans-serif;
 }
 
 .top-header ul{
 	list-style: none;
 	display: flex;
+	gap: 30px;
+	margin-right: 15%;
+}
+
+a{
+	text-decoration: none;
+	color: white
+}
+
+a:hover{
+	text-decoration: underline;
 }
 
 .recipes{
 	height: 25%;
 	width: 100%;
+	text-align: center;
+
+	border: black 1px solid;
+}
+
+.recipes ul{
+	display: flex;
+	list-style: none;
+	justify-content: space-evenly;
+	margin-top: 50px;
+
 	border: black 1px solid;
 }
 
 .quotes{
 	height: 25%;
 	width: 100%;
+	text-align: center;
+	background-color: #e5e7eb;
+
 	border: black 1px solid;
+}
+
+.actual-quote{
+	margin-top: 50px;
+	font-size: 40px;
+	text-align: center;
 }
 
 .footer{
 	height: 25%;
 	width: 100%;
+
 	border: black 1px solid;
 }
