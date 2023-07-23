@@ -1,0 +1,44 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.container{
+	height: 100vh;
+	width: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.header{
+	height: 25%;
+	width: 100%;
+	border: black 1px solid;
+}
+
+.top-header{
+	display: flex;
+}
+
+.top-header ul{
+	list-style: none;
+	display: flex;
+}
+
+.recipes{
+	height: 25%;
+	width: 100%;
+	border: black 1px solid;
+}
+
+.quotes{
+	height: 25%;
+	width: 100%;
+	border: black 1px solid;
+}
+
+.footer{
+	height: 25%;
+	width: 100%;
+	border: black 1px solid;
+}
