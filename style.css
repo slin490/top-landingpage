@@ -44,6 +44,23 @@ a:hover{
 	text-decoration: underline;
 }
 
+.introduction{
+	color: white;
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.introduction img{
+	margin-left: 15%;
+	margin-right: 15%;
+	border: white 2px solid;
+	border-radius: 4px;
+
+	width: 20%;
+	height: auto;
+}
+
 .recipes{
 	height: 25%;
 	width: 100%;
@@ -55,43 +72,47 @@ a:hover{
 .recipes .images{
 	display: flex;
 	justify-content: space-evenly;
-	margin-top: 50px;
+	margin-top: 30px;
 
 	
 }
 
-#burger{
-	height:100px;
-	width:100px;
+.recipes .images p{
+	font-size: 30px;
+}
 
-	border: black 1px solid;
+#burger{
+	height: 120px;
+	width: 120px;
+
+	border: black 2px solid;
 	border-radius: 10px;
 	overflow: hidden;
 }
 
 #pizza{
-	height:100px;
-	width:100px;
+	height: 120px;
+	width: 120px;
 	
-	border: black 1px solid;
+	border: black 2px solid;
 	border-radius: 10px;
 	overflow: hidden;
 }
 
 #fries{
-	height:100px;
-	width:100px;
+	height: 120px;
+	width: 120px;
 	
-	border: black 1px solid;
+	border: black 2px solid;
 	border-radius: 10px;
 	overflow: hidden;
 }
 
 #chicken{
-	height:100px;
-	width:100px;
+	height: 120px;
+	width: 120px;
 	
-	border: black 1px solid;
+	border: black 2px solid;
 	border-radius: 10px;
 	overflow: hidden;
 }
@@ -114,6 +135,14 @@ a:hover{
 .footer{
 	height: 25%;
 	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
 	border: black 1px solid;
+}
+
+.footer p{
+	font-style: italic;
+	font-size: 100px;
 }
