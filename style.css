@@ -52,13 +52,48 @@ a:hover{
 	border: black 1px solid;
 }
 
-.recipes ul{
+.recipes .images{
 	display: flex;
-	list-style: none;
 	justify-content: space-evenly;
 	margin-top: 50px;
 
+	
+}
+
+#burger{
+	height:100px;
+	width:100px;
+
 	border: black 1px solid;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+#pizza{
+	height:100px;
+	width:100px;
+	
+	border: black 1px solid;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+#fries{
+	height:100px;
+	width:100px;
+	
+	border: black 1px solid;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+#chicken{
+	height:100px;
+	width:100px;
+	
+	border: black 1px solid;
+	border-radius: 10px;
+	overflow: hidden;
 }
 
 .quotes{
